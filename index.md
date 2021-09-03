@@ -137,8 +137,8 @@ function triggerX()
 	<h3>Suporte CEX 4.84 - 4.88 HFW Firmware</h3>
 	<p><span style="color:#000000">Mais detalhes e notícias em</span> <a href="http://www.psx-place.com/forums/ps3xploit">http://www.psx-place.com</a><br><br><span style="color:#000000">Site Oficial do Desbloqueio PS3Xploit:</span> <a href="http://ps3xploit.com">http://ps3xploit.com</a></p>
 	<hr></div>
-	<p><button id="btnROP" type="button" onclick="initROP(true);" autofocus>Initialize HAN Enabler</button> | Auto-Close Browser <input type="checkbox" id="auto_close" name="aclose" checked="checked" onclick="autoclose();"/><span id="dex_txt" style="visibility:hidden"> | DEX mode<input type="checkbox" id="dex" name="DEX" disabled="" onclick="dex();"/></span></p>
-	<p><button id="btnTrigger" disabled="" type="button" onclick="triggerX();">Enable HAN</button><span id="reset" style="visibility:hidden"> | <button id="btnReset" type="button" onclick="disable_trigger();">Reset</button></span></p>
+	<p><button id="btnROP" type="button" onclick="initROP(true);" autofocus>Iniciar HAN</button> | Auto-Fechar Navegador <input type="checkbox" id="auto_close" name="aclose" checked="checked" onclick="autoclose();"/><span id="dex_txt" style="visibility:hidden"> | DEX mode<input type="checkbox" id="dex" name="DEX" disabled="" onclick="dex();"/></span></p>
+	<p><button id="btnTrigger" disabled="" type="button" onclick="triggerX();">Ativar HAN</button><span id="reset" style="visibility:hidden"> | <button id="btnReset" type="button" onclick="disable_trigger();">Reset</button></span></p>
 	<div id="result" style="color:#CC2010"></div><br>
 	<div id="log"></div>
 	<div id="exploit" ></div>
