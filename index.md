@@ -127,15 +127,15 @@ function triggerX()
 }
 </script>
 </head>
-	<body id="bodyId" style="background-color:#FFD097">
+	<body id="bodyId" style="background-color:#202020">
 	<div id="headerId" style="color:#CC2010">
 	<h1>PS3Xploit Tools v3.0.5 - PS3 HAN Enabler</h1>
-	<h2><span style="color:#000000">Cortesia da equipe PS3Xploit</span></h2><b>esc0rtd3w </b><span style="color:#000000;"> (Debugging & Testing) <b>|</b> </span><b>habib </b><span style="color:#000000"> (Reverse Engineering & Debugging) <b>|</b> </span><b>bguerville </b><span style="color:#000000"> (ROP, Javascript & Debugging)</span><hr>
-	<span style="color:#000000">Muito obrigado a xerpi por portar o exploit de vazamento de memória para ps3, zecoxao & Joonie por seu suporte inicial e renovado, mysis por documentar vsh / lv2, SSL por seus conselhos regulares e preciosos, kakaroto pelas ferramentas PS3 IDA, naherwert por scetool, Rebug Equipe para produzir / atualizar o único CFW adequado para desenvolver este trabalho e equipe Cobra por compartilhar sua fonte CobraUSB, a equipe psdevwiki é claro, STLcardsWS por sua contribuição de longa data e apoio constante. <br> Também gostaríamos de agradecer a todos os ps3 hackers / devs da comunidade, do passado e do presente, que direta ou indiretamente nos ajudaram a montar este projeto, você sabe quem você é ...</span><hr>
+	<h2><span style="color:#ffffff">Cortesia da equipe PS3Xploit</span></h2><b>esc0rtd3w </b><span style="color:#ffffff;"> (Debugging & Testing) <b>|</b> </span><b>habib </b><span style="color:#ffffff"> (Reverse Engineering & Debugging) <b>|</b> </span><b>bguerville </b><span style="color:#ffffff"> (ROP, Javascript & Debugging)</span><hr>
+	<span style="color:#ffffff">Muito obrigado a xerpi por portar o exploit de vazamento de memória para ps3, zecoxao & Joonie por seu suporte inicial e renovado, mysis por documentar vsh / lv2, SSL por seus conselhos regulares e preciosos, kakaroto pelas ferramentas PS3 IDA, naherwert por scetool, Rebug Equipe para produzir / atualizar o único CFW adequado para desenvolver este trabalho e equipe Cobra por compartilhar sua fonte CobraUSB, a equipe psdevwiki é claro, STLcardsWS por sua contribuição de longa data e apoio constante. <br> Também gostaríamos de agradecer a todos os ps3 hackers / devs da comunidade, do passado e do presente, que direta ou indiretamente nos ajudaram a montar este projeto, você sabe quem você é ...</span><hr>
 	<h3>Suporte CEX/DEX 4.81 - 4.82 OFW/CFW Firmware</h3>
 	<h3>Suporte DEX 4.84 OFW/CFW Firmware</h3>
 	<h3>Suporte CEX 4.84 - 4.88 HFW Firmware</h3>
-	<p><span style="color:#000000">Mais detalhes e notícias em</span> <a href="http://www.psx-place.com/forums/ps3xploit">http://www.psx-place.com</a><br><br><span style="color:#000000">Site Oficial do Desbloqueio PS3Xploit:</span> <a href="http://ps3xploit.com">http://ps3xploit.com</a></p>
+	<p><span style="color:#ffffff">Mais detalhes e notícias em</span> <a href="http://www.psx-place.com/forums/ps3xploit">http://www.psx-place.com</a><br><br><span style="color:#ffffff">Site Oficial do Desbloqueio PS3Xploit:</span> <a href="http://ps3xploit.com">http://ps3xploit.com</a></p>
 	<hr></div>
 	<p><button id="btnROP" type="button" onclick="initROP(true);" autofocus>Iniciar HAN</button> | Auto-Fechar Navegador <input type="checkbox" id="auto_close" name="aclose" checked="checked" onclick="autoclose();"/><span id="dex_txt" style="visibility:hidden"> | DEX mode<input type="checkbox" id="dex" name="DEX" disabled="" onclick="dex();"/></span></p>
 	<p><button id="btnTrigger" disabled="" type="button" onclick="triggerX();">Ativar HAN</button><span id="reset" style="visibility:hidden"> | <button id="btnReset" type="button" onclick="disable_trigger();">Reset</button></span></p>
