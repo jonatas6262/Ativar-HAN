@@ -155,8 +155,8 @@ var gadget_mod16_addr=0;
 var ipf1_addr=0; 
 var ipf2_addr=0; 
 var xtra_data;var stack_frame;var jump_2;var jump_1;var xtra_data_addr;var stack_frame_addr;var jump_2_addr;var jump_1_addr;
-var fail_msg_frag=hr+"<h1><b>A Inicialização do Exploit FALHOU!</h1><h2><span style='color:#000000;'><a href=\"javascript:window.location.reload();\">Refresh this page</a> & try again...</span></b></h2>";
-var progress_msg_frag1=hr+"<h1><b>Exploit Iniciado..."+br+"<span style='color:#000000;'>Progresso: ";
+var fail_msg_frag=hr+"<h1><b>A Inicialização do Exploit FALHOU!</h1><h2><span style='color:#ffffff;'><a href=\"javascript:window.location.reload();\">Refresh this page</a> & try again...</span></b></h2>";
+var progress_msg_frag1=hr+"<h1><b>Exploit Iniciado..."+br+"<span style='color:#ffffff;'>Progresso: ";
 var progress_msg_frag2='%, Por Favor, Aguarde...</span></b></h1>';
 
 
@@ -2269,7 +2269,7 @@ function ps3chk(){
 	}
 }
 
-function initROP(init)
+	function initROP(init)
 {
 	try
 	{
@@ -2375,7 +2375,7 @@ function triggerX()
 		showResult(hr+"<h2><b><span style='color:#ffffff;'>Ativando HAN ...</span></b></h2>");
 		disable_all();
 		setTimeout(trigger,1000,jump_1_addr);
-		setTimeout(rop_exit,2000,hr+"<h1><b><font color=%22386E38%22>HAN foi habilitado com sucesso</font></b></h1>");
+		setTimeout(rop_exit,2000,hr+"<h1><b><font color=%22386E38%22>HAN foi Ativado com sucesso</font></b></h1>");
 		cleanGUI();
 }
 </script>
