@@ -155,9 +155,9 @@ var gadget_mod16_addr=0;
 var ipf1_addr=0; 
 var ipf2_addr=0; 
 var xtra_data;var stack_frame;var jump_2;var jump_1;var xtra_data_addr;var stack_frame_addr;var jump_2_addr;var jump_1_addr;
-var fail_msg_frag=hr+"<h1><b>Exploit Initialization FAILED!</h1><h2><span style='color:#000000;'><a href=\"javascript:window.location.reload();\">Refresh this page</a> & try again...</span></b></h2>";
-var progress_msg_frag1=hr+"<h1><b>Exploit Initialization..."+br+"<span style='color:#000000;'>Progress: ";
-var progress_msg_frag2='%, please wait...</span></b></h1>';
+var fail_msg_frag=hr+"<h1><b>A Inicialização do Exploit FALHOU!</h1><h2><span style='color:#000000;'><a href=\"javascript:window.location.reload();\">Refresh this page</a> & try again...</span></b></h2>";
+var progress_msg_frag1=hr+"<h1><b>Exploit Iniciado..."+br+"<span style='color:#000000;'>Progresso: ";
+var progress_msg_frag2='%, Por Favor, Aguarde...</span></b></h1>';
 
 
 //DEX 4.81
@@ -2269,7 +2269,7 @@ function ps3chk(){
 	}
 }
 
-function initROP(init)
+  function initROP(init)
 {
 	try
 	{
@@ -2348,7 +2348,7 @@ function initROP(init)
 		if((j2===jump_2)&&(j1===jump_1)&&(x===xtra_data)&&(sf===stack_frame))
 		{
 			if(t_out!==0){clearTimeout(t_out);}
-			showResult(hr+"<h1><b><font color=%22386E38%22>HAN Enabler initialized successfully.</font></b></h1><h3><b><font color=%22000000%22><span style='color:#000000;'>You can now launch HAN Enabler!</span></b></h3>");
+			showResult(hr+"<h1><b><font color=%22386E38%22>HAN inicializado com sucesso.</font></b></h1><h3><b><font color=%22000000%22><span style='color:#ffffff;'>HAN Ativado com sucesso.</span></b></h3>");
 			enable_trigger();
 		}
 		else
@@ -2364,7 +2364,7 @@ function initROP(init)
 	catch(e)
 	{
 		debug=true;
-		logAdd(br+"HAN Enabler initialization failed because the following exception was thrown during execution:"+br+e+" at : "+e.lineNumber);
+		logAdd(br+"A Inicialização do HAN Falhou Porque a Seguinte Exceção foi Lançada Durante a Execução:"+br+e+" at : "+e.lineNumber);
 		debug=false;
 	}
 }
@@ -2372,26 +2372,26 @@ function initROP(init)
 function triggerX()
 {
 		clearLogEntry();
-		showResult(hr+"<h2><b><span style='color:#000000;'>Enabling HAN...</span></b></h2>");
+		showResult(hr+"<h2><b><span style='color:#ffffff;'>Ativando HAN ...</span></b></h2>");
 		disable_all();
 		setTimeout(trigger,1000,jump_1_addr);
-		setTimeout(rop_exit,2000,hr+"<h1><b><font color=%22386E38%22>HAN is successfully enabled</font></b></h1>");
+		setTimeout(rop_exit,2000,hr+"<h1><b><font color=%22386E38%22>HAN foi habilitado com sucesso</font></b></h1>");
 		cleanGUI();
 }
 </script>
 </head>
-	<body id="bodyId" style="background-color:#FFD097">
+	<body id="bodyId" style="background-color:#202020">
 	<div id="headerId" style="color:#CC2010">
 	<h1>PS3Xploit Tools v3.0.5 - PS3 HAN Enabler</h1>
-	<h2><span style="color:#202020">Courtesy of PS3Xploit Team</span></h2><b>esc0rtd3w </b><span style="color:#ffffff;"> (Debugging & Testing) <b>|</b> </span><b>habib </b><span style="color:#ffffff"> (Reverse Engineering & Debugging) <b>|</b> </span><b>bguerville </b><span style="color:#ffffff"> (ROP, Javascript & Debugging)</span><hr>
-	<span style="color:#ffffff">Many thanks to xerpi for porting the memory leak exploit to ps3, zecoxao & Joonie for their early & renewed support, mysis for documenting vsh/lv2, SSL for his regular & precious advice, kakaroto for the PS3 IDA tools, naherwert for scetool, Rebug Team for producing/updating the only CFW adequate to develop this work & Cobra team for sharing their CobraUSB source, the psdevwiki team of course, STLcardsWS for his long standing contribution & ever constant support.<br>We also wish to thank all the ps3 community hackers/devs, past & present, who directly or indirectly helped us put this project together, you know who you are...</span><hr>
-	<h3>Supports CEX/DEX 4.81 - 4.82 OFW/CFW Firmware</h3>
-	<h3>Supports DEX 4.84 OFW/CFW Firmware</h3>
-	<h3>Supports CEX 4.84 - 4.88 HFW Firmware</h3>
-	<p><span style="color:#ffffff">More details & news on</span> <a href="http://www.psx-place.com/forums/ps3xploit">http://www.psx-place.com</a><br><br><span style="color:#ffffff">PS3Xploit Team Donations:</span> <a href="https://www.paypal.me/nopsn">https://www.paypal.me/nopsn</a></p>
+	<h2><span style="color:#ffffff">Cortesia da Equipe PS3Xploit</span></h2><b>esc0rtd3w </b><span style="color:#ffffff;"> (Debugging & Testing) <b>|</b> </span><b>habib </b><span style="color:#ffffff"> (Reverse Engineering & Debugging) <b>|</b> </span><b>bguerville </b><span style="color:#ffffff"> (ROP, Javascript & Debugging)</span><hr>
+	<span style="color:#ffffff">Muito obrigado a xerpi por portar a exploração de vazamento de memória para ps3, zecoxao & Joonie por seu suporte inicial e renovado, mysis por documentar vsh / lv2, SSL por seus conselhos regulares e preciosos, kakaroto pelas ferramentas PS3 IDA, naherwert por scetool, Rebug Equipe para produzir / atualizar o único CFW adequado para desenvolver este trabalho e equipe Cobra por compartilhar sua fonte CobraUSB, a equipe psdevwiki, é claro, STLcardsWS por sua contribuição de longa data e apoio sempre constante.<br>Também gostaríamos de agradecer a todos os hackers / devs da comunidade ps3, do passado e do presente, que direta ou indiretamente nos ajudaram a montar este projeto, você sabe quem é ...</span><hr>
+	<h3><span style="color:#ffffff">Suporta CEX/DEX 4.81 - 4.82 OFW/CFW Firmware</h3>
+	<h3><span style="color:#ffffff">Suporta DEX 4.84 OFW/CFW Firmware</h3>
+	<h3><span style="color:#ffffff">Suporta CEX 4.84 - 4.88 HFW Firmware</h3>
+	<p><span style="color:#ffffff">Mais Detalhes & Notícias sobre</span> <a href="http://www.psx-place.com/forums/ps3xploit">http://www.psx-place.com</a><br><br><span style="color:#ffffff">Equipe PS3Xploit:</span> <a href="http://ps3xploit.com/">http://ps3xploit.com/</a></p>
 	<hr></div>
-	<p><button id="btnROP" type="button" onclick="initROP(true);" autofocus>Initialize HAN Enabler</button> | Auto-Close Browser <input type="checkbox" id="auto_close" name="aclose" checked="checked" onclick="autoclose();"/><span id="dex_txt" style="visibility:hidden"> | DEX mode<input type="checkbox" id="dex" name="DEX" disabled="" onclick="dex();"/></span></p>
-	<p><button id="btnTrigger" disabled="" type="button" onclick="triggerX();">Enable HAN</button><span id="reset" style="visibility:hidden"> | <button id="btnReset" type="button" onclick="disable_trigger();">Reset</button></span></p>
+	<p><button id="btnROP" type="button" onclick="initROP(true);" autofocus>Inicializar HAN</button><span style="color:#ffffff"> | Auto-Fechar Navegador <input type="checkbox" id="auto_close" name="aclose" checked="checked" onclick="autoclose();"/><span id="dex_txt" style="visibility:hidden"> | DEX mode<input type="checkbox" id="dex" name="DEX" disabled="" onclick="dex();"/></span></p>
+	<p><button id="btnTrigger" disabled="" type="button" onclick="triggerX();">Ativar HAN</button><span id="reset" style="visibility:hidden"> | <button id="btnReset" type="button" onclick="disable_trigger();">Reset</button></span></p>
 	<div id="result" style="color:#CC2010"></div><br>
 	<div id="log"></div>
 	<div id="exploit" ></div>
