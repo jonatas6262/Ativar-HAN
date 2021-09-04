@@ -2348,7 +2348,7 @@ function initROP(init)
 		if((j2===jump_2)&&(j1===jump_1)&&(x===xtra_data)&&(sf===stack_frame))
 		{
 			if(t_out!==0){clearTimeout(t_out);}
-			showResult(hr+"<h1><b><font color=%22386E38%22>HAN inicializado com sucesso.</font></b></h1><h3><b><font color=%22000000%22><span style='color:#ffffff;'>HAN Ativado com sucesso.</span></b></h3>");
+			showResult(hr+"<h1><b><font color=%22386E38%22>HAN inicializado com sucesso.</font></b></h1><h3><b><font color=%22000000%22><span style='color:#ffffff;'>Clique em "Ativar HAN" Para Ativar seu Desbloqueio</span></b></h3>");
 			enable_trigger();
 		}
 		else
