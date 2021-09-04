@@ -2348,7 +2348,7 @@ function initROP(init)
 		if((j2===jump_2)&&(j1===jump_1)&&(x===xtra_data)&&(sf===stack_frame))
 		{
 			if(t_out!==0){clearTimeout(t_out);}
-			showResult(hr+"<h1><b><font color=%22386E38%22>HAN inicializado com sucesso.</font></b></h1><h3><b><font color=%22000000%22><span style='color:#000000;'>HAN Ativado com sucesso.</span></b></h3>");
+			showResult(hr+"<h1><b><font color=%22386E38%22>HAN inicializado com sucesso.</font></b></h1><h3><b><font color=%22000000%22><span style='color:#ffffff;'>HAN Ativado com sucesso.</span></b></h3>");
 			enable_trigger();
 		}
 		else
@@ -2372,7 +2372,7 @@ function initROP(init)
 function triggerX()
 {
 		clearLogEntry();
-		showResult(hr+"<h2><b><span style='color:#000000;'>Ativando HAN ...</span></b></h2>");
+		showResult(hr+"<h2><b><span style='color:#ffffff;'>Ativando HAN ...</span></b></h2>");
 		disable_all();
 		setTimeout(trigger,1000,jump_1_addr);
 		setTimeout(rop_exit,2000,hr+"<h1><b><font color=%22386E38%22>HAN foi habilitado com sucesso</font></b></h1>");
