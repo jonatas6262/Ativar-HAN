@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
 <head>
 <script src="ps3xploit_v305.js"></script>
