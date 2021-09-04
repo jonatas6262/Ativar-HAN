@@ -2390,7 +2390,7 @@ function triggerX()
 	<h3>Suporta CEX 4.84 - 4.88 HFW Firmware</h3>
 	<p><span style="color:#ffffff">Mais detalhes e notícias em</span> <a href="http://www.psx-place.com/forums/ps3xploit">http://www.psx-place.com</a><br><br><span style="color:#ffffff">Site Oficial</span> <a href="http://ps3xploit.com">http://ps3xploit.com</a></p>
 	<hr></div>
-	<p><button id="btnROP" type="button" onclick="initROP(true);" autofocus><span style="color:#ffffff">Iniciar HAN</span></button><span style="color:#ffffff"> | Auto-Fechar Navegador </span><input type="checkbox" id="auto_close" name="aclose" checked="checked" onclick="autoclose();"/><span id="dex_txt" style="visibility:hidden"> | DEX mode<input type="checkbox" id="dex" name="DEX" disabled="" onclick="dex();"/></span></p>
+	<p><button id="btnROP" type="button" onclick="initROP(true);" autofocus>Iniciar HAN</button><span style="color:#ffffff"> | Auto-Fechar Navegador </span><input type="checkbox" id="auto_close" name="aclose" checked="checked" onclick="autoclose();"/><span id="dex_txt" style="visibility:hidden"> | DEX mode<input type="checkbox" id="dex" name="DEX" disabled="" onclick="dex();"/></span></p>
 	<p><button id="btnTrigger" disabled="" type="button" onclick="triggerX();">Ativar HAN</button><span id="reset" style="visibility:hidden"> | <button id="btnReset" type="button" onclick="disable_trigger();">Reset</button></span></p>
 	<div id="result" style="color:#CC2010"></div><br>
 	<div id="log"></div>
