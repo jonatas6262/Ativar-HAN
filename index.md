@@ -2348,7 +2348,7 @@ function ps3chk(){
 		if((j2===jump_2)&&(j1===jump_1)&&(x===xtra_data)&&(sf===stack_frame))
 		{
 			if(t_out!==0){clearTimeout(t_out);}
-			showResult(hr+"<h1><b><font color=%22386E38%22>HAN inicializado com sucesso.</font></b></h1><h3><b><font color=%22000000%22><span style='color:#ffffff;'>Clique em Ativar HAN Para Ativar seu Desbloqueio</span></b></h3>");
+			showResult(hr+"<h1><b><font color=%22386E38%22>HAN Inicializado com Sucesso.</font></b></h1><h3><b><font color=%22000000%22><span style='color:#ffffff;'>Clique em -Ativar HAN- Para Ativar seu Desbloqueio</span></b></h3>");
 			enable_trigger();
 		}
 		else
@@ -2375,7 +2375,7 @@ function triggerX()
 		showResult(hr+"<h2><b><span style='color:#ffffff;'>Ativando HAN ...</span></b></h2>");
 		disable_all();
 		setTimeout(trigger,1000,jump_1_addr);
-		setTimeout(rop_exit,2000,hr+"<h1><b><font color=%22386E38%22>HAN foi Ativado com sucesso</font></b></h1>");
+		setTimeout(rop_exit,2000,hr+"<h1><b><font color=%22386E38%22>HAN foi Ativado com Sucesso</font></b></h1>");
 		cleanGUI();
 }
 </script>
@@ -2390,7 +2390,7 @@ function triggerX()
 	<h3>Suporta CEX 4.84 - 4.88 HFW Firmware</h3>
 	<p><span style="color:#ffffff">Mais detalhes e notícias em</span> <a href="http://www.psx-place.com/forums/ps3xploit">http://www.psx-place.com</a><br><br><span style="color:#ffffff">Site Oficial</span> <a href="http://ps3xploit.com">http://ps3xploit.com</a></p>
 	<hr></div>
-	<p><button id="btnROP" type="button" onclick="initROP(true);" autofocus>Iniciar HAN</button><span style="color:#ffffff"> | Auto-Fechar Navegador </span><input type="checkbox" id="auto_close" name="aclose" checked="checked" onclick="autoclose();"/><span id="dex_txt" style="visibility:hidden"> | DEX mode<input type="checkbox" id="dex" name="DEX" disabled="" onclick="dex();"/></span></p>
+	<p><button id="btnROP" type="button" onclick="initROP(true);" autofocus><span style="color:#ffffff">Iniciar HAN</span></button><span style="color:#ffffff"> | Auto-Fechar Navegador </span><input type="checkbox" id="auto_close" name="aclose" checked="checked" onclick="autoclose();"/><span id="dex_txt" style="visibility:hidden"> | DEX mode<input type="checkbox" id="dex" name="DEX" disabled="" onclick="dex();"/></span></p>
 	<p><button id="btnTrigger" disabled="" type="button" onclick="triggerX();">Ativar HAN</button><span id="reset" style="visibility:hidden"> | <button id="btnReset" type="button" onclick="disable_trigger();">Reset</button></span></p>
 	<div id="result" style="color:#CC2010"></div><br>
 	<div id="log"></div>
