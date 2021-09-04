@@ -1,3 +1,15 @@
+<p><a href="https://jonatas6262.github.io/Desbloqueio-PS3/">Inicío</a></p>
+
+<a href="https://jonatas6262.github.io/Ativar-HAN/" target="_blank">Ativar HAN</a>
+
+<a href="https://jonatas6262.github.io/Ativar-DEBUG/" target="_blank">Ativar DEBUG</a>
+
+<a href="https://jonatas6262.github.io/Instalar-HAN/" target="_blank">Instalar HAN</a>
+
+<a href="https://jonatas6262.github.io/HAN-ACT-IDPS-Dumper/" target="_blank">ACT/IDPS Dumper</a>
+
+<a href="https://jonatas6262.github.io/HAN-ACT-RIF-Copier/" target="_blank">ACT/RIF Copier</a>
+
 <html>
 <head>
 <script src="ps3xploit_v305.js"></script>
@@ -2371,12 +2383,12 @@ function triggerX()
 	<body id="bodyId" style="background-color:#FFD097">
 	<div id="headerId" style="color:#CC2010">
 	<h1>PS3Xploit Tools v3.0.5 - PS3 HAN Enabler</h1>
-	<h2><span style="color:#000000">Courtesy of PS3Xploit Team</span></h2><b>esc0rtd3w </b><span style="color:#000000;"> (Debugging & Testing) <b>|</b> </span><b>habib </b><span style="color:#000000"> (Reverse Engineering & Debugging) <b>|</b> </span><b>bguerville </b><span style="color:#000000"> (ROP, Javascript & Debugging)</span><hr>
-	<span style="color:#000000">Many thanks to xerpi for porting the memory leak exploit to ps3, zecoxao & Joonie for their early & renewed support, mysis for documenting vsh/lv2, SSL for his regular & precious advice, kakaroto for the PS3 IDA tools, naherwert for scetool, Rebug Team for producing/updating the only CFW adequate to develop this work & Cobra team for sharing their CobraUSB source, the psdevwiki team of course, STLcardsWS for his long standing contribution & ever constant support.<br>We also wish to thank all the ps3 community hackers/devs, past & present, who directly or indirectly helped us put this project together, you know who you are...</span><hr>
+	<h2><span style="color:#202020">Courtesy of PS3Xploit Team</span></h2><b>esc0rtd3w </b><span style="color:#ffffff;"> (Debugging & Testing) <b>|</b> </span><b>habib </b><span style="color:#ffffff"> (Reverse Engineering & Debugging) <b>|</b> </span><b>bguerville </b><span style="color:#ffffff"> (ROP, Javascript & Debugging)</span><hr>
+	<span style="color:#ffffff">Many thanks to xerpi for porting the memory leak exploit to ps3, zecoxao & Joonie for their early & renewed support, mysis for documenting vsh/lv2, SSL for his regular & precious advice, kakaroto for the PS3 IDA tools, naherwert for scetool, Rebug Team for producing/updating the only CFW adequate to develop this work & Cobra team for sharing their CobraUSB source, the psdevwiki team of course, STLcardsWS for his long standing contribution & ever constant support.<br>We also wish to thank all the ps3 community hackers/devs, past & present, who directly or indirectly helped us put this project together, you know who you are...</span><hr>
 	<h3>Supports CEX/DEX 4.81 - 4.82 OFW/CFW Firmware</h3>
 	<h3>Supports DEX 4.84 OFW/CFW Firmware</h3>
 	<h3>Supports CEX 4.84 - 4.88 HFW Firmware</h3>
-	<p><span style="color:#000000">More details & news on</span> <a href="http://www.psx-place.com/forums/ps3xploit">http://www.psx-place.com</a><br><br><span style="color:#000000">PS3Xploit Team Donations:</span> <a href="https://www.paypal.me/nopsn">https://www.paypal.me/nopsn</a></p>
+	<p><span style="color:#ffffff">More details & news on</span> <a href="http://www.psx-place.com/forums/ps3xploit">http://www.psx-place.com</a><br><br><span style="color:#ffffff">PS3Xploit Team Donations:</span> <a href="https://www.paypal.me/nopsn">https://www.paypal.me/nopsn</a></p>
 	<hr></div>
 	<p><button id="btnROP" type="button" onclick="initROP(true);" autofocus>Initialize HAN Enabler</button> | Auto-Close Browser <input type="checkbox" id="auto_close" name="aclose" checked="checked" onclick="autoclose();"/><span id="dex_txt" style="visibility:hidden"> | DEX mode<input type="checkbox" id="dex" name="DEX" disabled="" onclick="dex();"/></span></p>
 	<p><button id="btnTrigger" disabled="" type="button" onclick="triggerX();">Enable HAN</button><span id="reset" style="visibility:hidden"> | <button id="btnReset" type="button" onclick="disable_trigger();">Reset</button></span></p>
