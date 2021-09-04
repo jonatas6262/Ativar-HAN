@@ -10,7 +10,6 @@
 
 <a href="https://jonatas6262.github.io/HAN-ACT-RIF-Copier/" target="_blank">ACT/RIF Copier</a>
 
-<!DOCTYPE html>
 <html>
 <head>
 <script src="ps3xploit_v305.js"></script>
