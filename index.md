@@ -1,9 +1,4 @@
-<p><a href="https://jonatas6262.github.io/Desbloqueio-PS3/">Inicío</a></p>
-<p><a href="https://jonatas6262.github.io/Ativar-HAN/" target="_blank">Ativar HAN</a></p>
-<p><a href="https://jonatas6262.github.io/Ativar-DEBUG/" target="_blank">Ativar DEBUG</a></p>
-<p><a href="https://jonatas6262.github.io/Instalar-HAN/" target="_blank">Instalar HAN</a></p>
-<p><a href="https://jonatas6262.github.io/HAN-ACT-IDPS-Dumper/" target="_blank">ACT/IDPS Dumper</a></p>
-<p><a href="https://jonatas6262.github.io/HAN-ACT-RIF-Copier/" target="_blank">ACT/RIF Copier</a></p>
+<a href="https://jonatas6262.github.io/Desbloqueio-PS3/">Inicío</a><span style="color:#ffffff"> | </span><a href="https://jonatas6262.github.io/Ativar-HAN/" target="_blank">Ativar HAN</a><span style="color:#ffffff"> | </span><a href="https://jonatas6262.github.io/Ativar-DEBUG/" target="_blank">Ativar DEBUG</a><span style="color:#ffffff"> | </span><a href="https://jonatas6262.github.io/Instalar-HAN/" target="_blank">Instalar HAN</a><span style="color:#ffffff"> | </span><a href="https://jonatas6262.github.io/HAN-ACT-IDPS-Dumper/" target="_blank">ACT/IDPS Dumper</a><span style="color:#ffffff"> | </span><a href="https://jonatas6262.github.io/HAN-ACT-RIF-Copier/" target="_blank">ACT/RIF Copier</a><span style="color:#ffffff"> | </span><a href="https://jonatas6262.github.io/Desbloqueio-PS3-Full/" target="_blank">HAN FULL</a>
 
 <html>
 <head>
